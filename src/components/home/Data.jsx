@@ -58,10 +58,10 @@ const Data = () => {
                 </h1>
 
                 <h3 className="home_subtitle">
-                   Data scientist
+                Business Intelligence Analyst/Data Analyst.
                 </h3>
                <p className="home_description">
-               I am a skilled Data Analyst based in Jersey City, New Jersey, and I'm very passionate and dedicated to my work.
+               I am a skilled Data Analyst From Calgary, alberta canada and I'm very passionate and dedicated to my work.
 .
                 </p> 
 

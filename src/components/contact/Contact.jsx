@@ -15,7 +15,7 @@ const Contact = () => {
 
 
   return (
-    <section className="contact section" id="contact">
+    <section className="contact section">
          <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact me</span>
 
@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="contact_card">
                 <i className="bx bxl-messenger content_card-icon"></i>
                 <h3 className="contact_card-title">Messenger</h3>
-                <span className="contact_card-data">David Hume</span>
+                <span id="contact" className="contact_card-data">David Hume</span>
 
                 <a href="mailto:nobregadavi@hotmail.com" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
 
@@ -55,9 +55,9 @@ const Contact = () => {
         </div>
         </div>
         <div className="contact_content">
-            <h3 className="contact_title">Write me your project</h3>
+            <h3  className="contact_title">Write me your project</h3>
 
-            <form ref={form} onSubmit={sendEmail}
+            <form ref={form}   onSubmit={sendEmail}
              className="contact_form">
                 <div className="contact_form-div">
                     <label  className="contact_form-tag">Name</label>
