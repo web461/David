@@ -3,7 +3,7 @@ import React from 'react'
 const Backend = () => {
   return (
     <div className="skills_content">
-    <h3 className="skills_title">Tools i use</h3>
+    <h3 className="skills_title">Tools I use</h3>
 
     <div className="skills_box">
         <div className="skills_group">
@@ -74,7 +74,7 @@ const Backend = () => {
                 <i class="bx bx-badge-check"></i>
 
                 <div>
-                    <h3 className="skills_name"> R (Programming Language)</h3>
+                    <h3 className="skills_name"> Microsoft SQL</h3>
                         <span className="skills_level">Intermediate</span>
                     
                 </div>

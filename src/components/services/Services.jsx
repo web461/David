@@ -27,11 +27,11 @@ const Services = () => {
                     "services_modal"}>
                     <div className="services_modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services_modal-close"></i>
-                        <h3 className="services_modal-title">renewable energy consulting firm</h3>
+                        <h3 className="services_modal-title">Data analytics for renewable energy consulting firm</h3>
                         <p className="services_modal-description">
                         I am representing our renewable energy consulting firm, where data analytics plays a pivotal role. My mission is to assist corporations and governments in maximizing renewable energy benefits through rigorous data analysis. I was engaged by Calgary to examine their solar energy data, obtained from the Open Data portal, using advanced analytics techniques. Notably, I found that Whitehorn had the highest monthly production and Richmond had the lowest, leading me to recommend strategic solar infrastructure investments. My data-driven insights, including average monthly production, daily output analysis, and total production, underscore Calgary's growing solar energy market's potential, emphasizing its role in addressing energy needs through data-informed decision-making.
                          </p>
-                         <a href="https://linkedin.com/in/nobrega-davi" className='button button-flex'>Get full project</a>
+                         <a href="https://linkedin.com/in/nobrega-davi" className='button button-flex'>Contact me</a>
 
                         {/* <ul className="services_modal-services grid">
                             <li className="services_modal-service">

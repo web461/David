@@ -61,7 +61,7 @@ const Data = () => {
                 Business Intelligence Analyst/Data Analyst.
                 </h3>
                <p className="home_description">
-               I am a skilled Data Analyst From Calgary, alberta canada and I'm very passionate and dedicated to my work.
+               I am a skilled Data Analyst From Calgary, Alberta Canada and I'm very passionate and dedicated to my work.
 .
                 </p> 
 

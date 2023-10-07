@@ -45,11 +45,11 @@ const Contact = () => {
             </div>
 
             <div className="contact_card">
-                <i className="bx bxl-messenger content_card-icon"></i>
-                <h3 className="contact_card-title">Messenger</h3>
+                <i className="bx bxl-instagram content_card-icon"></i>
+                <h3 className="contact_card-title">Instagram</h3>
                 <span id="contact" className="contact_card-data">David Hume</span>
 
-                <a href="mailto:nobregadavi@hotmail.com" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                <a href="https://instagram.com/david_hume01?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
 
             </div>
         </div>

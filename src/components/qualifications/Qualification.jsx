@@ -20,7 +20,7 @@ const Qualification = () => {
                       "qualification_button  button--flex"  }
                       onClick={()=> toggleTab(1)}
                       >
-                    <i className="uil uil-graduation-cap qualification_icon"></i>Education
+                    <i className="uil uil-briefcase-alt qualification_icon"></i>Experience
                 </div>
 
                 <div className={toggleState ===2 ? 
@@ -28,7 +28,7 @@ const Qualification = () => {
                       "qualification_button  button--flex"  }
                       onClick={()=> toggleTab(2)}
                       >
-                    <i className="uil uil-briefcase-alt qualification_icon"></i>Experience
+                    <i className="uil uil-graduation-cap qualification_icon"></i>Education
                 </div>
             </div>
                 <div className="qualification_sections">
@@ -40,49 +40,11 @@ const Qualification = () => {
                     >
                         <div className="qualification_data">
                             <div>
-                                <h3 className="qualification_title">Business Intelligence</h3>
-                                <span className="qualification_subtitle">Southern Alberta Institute of Technology</span>
-                                <div className="qualification_calender">
-                                    <i class="uil uil-calender-alt"></i>2023 -present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification_rounder"></span>
-                                <span className="qualification_line"></span>
-                            </div>
-                        </div>
-
-
-                        <div className="qualification_data">
-                            <div>
-
-                            </div>
-
-                            <div>
-                                <span className="qualification_rounder"></span>
-                                <span className="qualification_line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification_title">Data Analysis and Reporting</h3>
-                                <span className="qualification_subtitle">Southern Alberta Institute of Technology (SAIT), Calgary AB</span>
-                                <div className="qualification_calender">
-                                    <i class="uil uil-calender-alt"></i>2023 -present
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                        <div className="qualification_data">
-                            <div>
-                                <h3 className="qualification_title">Information Technology</h3>
-                                <span className="qualification_subtitle">Southern Alberta Institute of Technology (SAIT), Calgary AB
+                                <h3 className="qualification_title">Server (Permanent Part-Time)</h3>
+                                <span className="qualification_subtitle">Great Events Catering | Calgary, AB
 </span>
                                 <div className="qualification_calender">
-                                    <i class="uil uil-calender-alt"></i>Awarded 2022
+                                    <i class="uil uil-calender-alt"></i>May/2023 – current
                                 </div>
                             </div>
 
@@ -104,11 +66,52 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification_title"> Computer Systems </h3>
-                                <span className="qualification_subtitle">Southern Alberta Institute of Technology (SAIT), Calgary AB
+                                <h3 className="qualification_title">Systems Consultant (Contract) </h3>
+                                <span className="qualification_subtitle">Long View Systems | Calgary, AB</span>
+                                <div className="qualification_calender">
+                                    <i class="uil uil-calender-alt"></i>Oct/2022 – Mar/2023
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div className="qualification_data">
+                            <div>
+                                <h3 className="qualification_title">Computer Support Technician (Internship)  </h3>
+                                <span className="qualification_subtitle">Iron Oak IT | Calgary, AB
 </span>
                                 <div className="qualification_calender">
-                                    <i class="uil uil-calender-alt"></i>Awarded -2022
+                                    <i class="uil uil-calender-alt"></i>May/2022 – Aug/2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
+                        </div>
+
+
+                        <div className="qualification_data">
+                            <div>
+
+                            </div>
+
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification_title"> Senior Marketing Consultant  </h3>
+                                <span className="qualification_subtitle">TELUS| Calgary, AB
+
+</span>
+                                <div className="qualification_calender">
+                                    <i class="uil uil-calender-alt"></i>Jul/2021 – Mar/2022
                                 </div>
                             </div>
                         </div>
@@ -133,10 +136,11 @@ const Qualification = () => {
                     }>
                         <div className="qualification_data">
                             <div>
-                                <h3 className="qualification_title">Systems Consultant (Contract) </h3>
-                                <span className="qualification_subtitle">Long View Systems | Calgary, AB</span>
+                                <h3 className="qualification_title">Business Intelligence: Data Analysis and Reporting </h3>
+                                <span className="qualification_subtitle">Southern Alberta Institute of Technology (SAIT), Calgary AB
+</span>
                                 <div className="qualification_calender">
-                                    <i class="uil uil-calender-alt"></i>Oct/2022 – Mar/2023
+                                    <i class="uil uil-calender-alt"></i>2023 - present
                                 </div>
                             </div>
 
@@ -158,18 +162,19 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification_title">Server (Permanent Part-Time) </h3>
-                                <span className="qualification_subtitle">Great Events Catering | Calgary, AB
+                                <h3 className="qualification_title">Information Technology: Computer Systems  </h3>
+                                <span className="qualification_subtitle">Southern Alberta Institute of Technology (SAIT), Calgary AB
+
 </span>
                                 <div className="qualification_calender">
-                                    <i class="uil uil-calender-alt"></i>2023 – present
+                                    <i class="uil uil-calender-alt"></i>Awarded May/2022
                                 </div>
                             </div>
                         </div>
 
 
 
-
+{/* 
                         <div className="qualification_data">
                             <div>
                                 <h3 className="qualification_title">Computer Support Technician (Internship)</h3>
@@ -184,7 +189,7 @@ const Qualification = () => {
                                 <span className="qualification_rounder"></span>
                                 <span className="qualification_line"></span>
                             </div>
-                        </div>
+                        </div> */}
 
 
                        

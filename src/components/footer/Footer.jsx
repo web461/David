@@ -11,24 +11,24 @@ const Footer = () => {
                 <a href="#about" className="footer_link">About</a>
             </li>
             <li>
-                <a href="#portfolio" className="footer_link">Projects</a>
+                <a href="#qualification" className="footer_link">Projects</a>
             </li>
-            <li>
+            {/* <li>
                 <a href="#testimonials" className="footer_link">Testimonials</a>
-            </li>
+            </li> */}
         </ul>
 
         <div className="footer_social">
         <a href="https://linkedin.com/in/nobrega-davi" className="footer_social-link" target= '_blank' >
         <i class="uil uil-linkedin"></i>
          </a>
-         <a href="https://linkedin.com/in/nobrega-davi"className="footer_social-link" target= '_blank' >
+         <a href="https://wa.me/+1(587)429-5885"className="footer_social-link" target= '_blank' >
          <i class="uil uil-whatsapp"></i>
 
 </a>
 
-<a href="https://linkedin.com/in/nobrega-davi" className="footer_social-link" target= '_blank' >
-<i class="uil uil-github"></i>
+<a href="https://instagram.com/david_hume01?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr" className="footer_social-link" target= '_blank' >
+<i class="uil uil-instagram"></i>
 
 </a> 
         </div>
