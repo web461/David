@@ -4,45 +4,45 @@ import "./Qualification.css"
 const Qualification = () => {
     const [toggleState, setToggleState] = useState(1);
 
-    const toggleTab= (index)=>{
+    const toggleTab = (index) => {
         setToggleState(index);
     }
 
-  return (
-    <section id="qualification" className="qualification section">
-        <h2 className="section__title">Qualification</h2>
-        <span className="section__subtitle">My personal journey</span>
-        <div className="qualification_container container">
-            <div className="qualification_tabs">
-                <div 
-                className={toggleState ===1 ? 
-                "qualification_button qualification_active button--flex":
-                      "qualification_button  button--flex"  }
-                      onClick={()=> toggleTab(1)}
-                      >
-                    <i className="uil uil-briefcase-alt qualification_icon"></i>Experience
-                </div>
+    return (
+        <section id="qualification" className="qualification section">
+            <h2 className="section__title">Qualification</h2>
+            <span className="section__subtitle">My personal journey</span>
+            <div className="qualification_container container">
+                <div className="qualification_tabs">
+                    <div
+                        className={toggleState === 1 ?
+                            "qualification_button qualification_active button--flex" :
+                            "qualification_button  button--flex"}
+                        onClick={() => toggleTab(1)}
+                    >
+                        <i className="uil uil-briefcase-alt qualification_icon"></i>Experience
+                    </div>
 
-                <div className={toggleState ===2 ? 
-                "qualification_button qualification_active button--flex":
-                      "qualification_button  button--flex"  }
-                      onClick={()=> toggleTab(2)}
-                      >
-                    <i className="uil uil-graduation-cap qualification_icon"></i>Education
+                    <div className={toggleState === 2 ?
+                        "qualification_button qualification_active button--flex" :
+                        "qualification_button  button--flex"}
+                        onClick={() => toggleTab(2)}
+                    >
+                        <i className="uil uil-graduation-cap qualification_icon"></i>Education
+                    </div>
                 </div>
-            </div>
                 <div className="qualification_sections">
-                    <div 
-                    className={toggleState ===1?
-                    "qualification_content qualification_content-active":
-                    "qualification_content "
-                    }
+                    <div
+                        className={toggleState === 1 ?
+                            "qualification_content qualification_content-active" :
+                            "qualification_content "
+                        }
                     >
                         <div className="qualification_data">
                             <div>
                                 <h3 className="qualification_title">Server (Permanent Part-Time)</h3>
                                 <span className="qualification_subtitle">Great Events Catering | Calgary, AB
-</span>
+                                </span>
                                 <div className="qualification_calender">
                                     <i class="uil uil-calender-alt"></i>May/2023 – current
                                 </div>
@@ -82,7 +82,7 @@ const Qualification = () => {
                             <div>
                                 <h3 className="qualification_title">Computer Support Technician (Internship)  </h3>
                                 <span className="qualification_subtitle">Iron Oak IT | Calgary, AB
-</span>
+                                </span>
                                 <div className="qualification_calender">
                                     <i class="uil uil-calender-alt"></i>May/2022 – Aug/2023
                                 </div>
@@ -109,7 +109,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title"> Senior Marketing Consultant  </h3>
                                 <span className="qualification_subtitle">TELUS| Calgary, AB
 
-</span>
+                                </span>
                                 <div className="qualification_calender">
                                     <i class="uil uil-calender-alt"></i>Jul/2021 – Mar/2022
                                 </div>
@@ -130,15 +130,15 @@ const Qualification = () => {
 
 
 
-                    <div   className={toggleState ===2?
-                    "qualification_content qualification_content-active":
-                    "qualification_content "
+                    <div className={toggleState === 2 ?
+                        "qualification_content qualification_content-active" :
+                        "qualification_content "
                     }>
                         <div className="qualification_data">
                             <div>
-                                <h3 className="qualification_title">Business Intelligence: Data Analysis and Reporting </h3>
+                                <h3 className="qualification_title">Business Intelligence: Data Analysis and Data Engineering </h3>
                                 <span className="qualification_subtitle">Southern Alberta Institute of Technology (SAIT), Calgary AB
-</span>
+                                </span>
                                 <div className="qualification_calender">
                                     <i class="uil uil-calender-alt"></i>2023 - present
                                 </div>
@@ -165,7 +165,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title">Information Technology: Computer Systems  </h3>
                                 <span className="qualification_subtitle">Southern Alberta Institute of Technology (SAIT), Calgary AB
 
-</span>
+                                </span>
                                 <div className="qualification_calender">
                                     <i class="uil uil-calender-alt"></i>Awarded May/2022
                                 </div>
@@ -174,7 +174,7 @@ const Qualification = () => {
 
 
 
-{/* 
+                        {/* 
                         <div className="qualification_data">
                             <div>
                                 <h3 className="qualification_title">Computer Support Technician (Internship)</h3>
@@ -192,12 +192,12 @@ const Qualification = () => {
                         </div> */}
 
 
-                       
+
                     </div>
                 </div>
-            </div> 
-    </section>
-  )
+            </div>
+        </section>
+    )
 }
 
 export default Qualification
