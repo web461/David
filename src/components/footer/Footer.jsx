@@ -23,7 +23,7 @@ const Footer = () => {
         <i class="uil uil-linkedin"></i>
          </a>
          <a href="https://wa.me/+1(587)429-5885"className="footer_social-link" target= '_blank' >
-         <i class="uil uil-whatsapp"></i>
+{/*          <i class="uil uil-whatsapp"></i> */}
 
 </a>
 
