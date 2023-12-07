@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import "./Services.css"
 import img from "../../assets/renewable.webp"
 import elecimg from "../../assets/elec.jpg"
+import olympimg from "../../assets/dashboard.png"
 import elecp from "../../assets/electricvehicleproject.zip"
+import olympus from "../../assets/olympus.zip"
 
 const Services = () => {
     const [toggleState, setToggleState] = useState(0);
@@ -145,9 +147,11 @@ const Services = () => {
                     </div>
                 </div>
 
+
+                {/* service content container */}
                 <div className="services_content">
                     <div onClick={() => toggleTab(3)}>
-                        <img src={elecimg} alt="" />
+                        <img src={olympimg} alt="" />
                         {/* <i className="uil uil-web-grid services_icon"></i> */}
                         <h3 className="services_title">Olympus BI Solution</h3>
                     </div>
@@ -165,7 +169,7 @@ const Services = () => {
                             </p>
                             <div className='bottom_buttons'>
                                 <a href="https://linkedin.com/in/nobrega-davi" className='button button-flex'>Contact me</a>
-                                <a download href={elecp} className='button button-flex'>Download project</a>
+                                <a download href={olympus} className='button button-flex'>Download project</a>
                             </div>
                             {/* <ul className="services_modal-services grid">
                             <li className="services_modal-service">
