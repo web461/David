@@ -5,6 +5,7 @@ import elecimg from "../../assets/elec.jpg"
 import olympimg from "../../assets/dashboard.png"
 import elecp from "../../assets/electricvehicleproject.zip"
 import olympus from "../../assets/olympus.zip"
+import renewable from "../../assets/renewable.zip"
 
 const Services = () => {
     const [toggleState, setToggleState] = useState(0);
@@ -36,7 +37,10 @@ const Services = () => {
                             <p className="services_modal-description">
                                 I am representing our renewable energy consulting firm, where data analytics plays a pivotal role. My mission is to assist corporations and governments in maximizing renewable energy benefits through rigorous data analysis. I was engaged by Calgary to examine their solar energy data, obtained from the Open Data portal, using advanced analytics techniques. Notably, I found that Whitehorn had the highest monthly production and Richmond had the lowest, leading me to recommend strategic solar infrastructure investments. My data-driven insights, including average monthly production, daily output analysis, and total production, underscore Calgary's growing solar energy market's potential, emphasizing its role in addressing energy needs through data-informed decision-making.
                             </p>
-                            <a href="https://linkedin.com/in/nobrega-davi" className='button button-flex'>Contact me</a>
+                             <div className='bottom_buttons'>
+                                <a href="https://linkedin.com/in/nobrega-davi" className='button button-flex'>Contact me</a>
+                                <a download href={renewable} className='button button-flex'>Download project</a>
+                            </div>
 
                             {/* <ul className="services_modal-services grid">
                             <li className="services_modal-service">
